@@ -1,0 +1,36 @@
+{
+  "name": "yox-modelcontextprotocol",
+  "version": "1.0.0",
+  "description": "intelligent socials",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "socials": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isuyashpatel/yox-modelcontextprotocol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isuyashpatel/yox-modelcontextprotocol/issues"
+  },
+  "homepage": "https://github.com/isuyashpatel/yox-modelcontextprotocol#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  }
+}
